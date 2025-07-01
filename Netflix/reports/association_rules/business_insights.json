@@ -1,0 +1,32 @@
+{
+  "analysis_date": "2025-07-01 09:47:08",
+  "total_rules_generated": 52,
+  "genre_patterns": [
+    "Content with Action & Adventure has 46.3% chance of also being International Movies (Lift: 1.48x)",
+    "Content with Sci-Fi & Fantasy has 51.4% chance of also being Action & Adventure (Lift: 5.26x)",
+    "Content with Anime Series has 71.8% chance of also being International TV Shows (Lift: 4.68x)",
+    "Content with British TV Shows has 35.7% chance of also being Docuseries (Lift: 7.97x)",
+    "Content with British TV Shows has 51.2% chance of also being International TV Shows (Lift: 3.34x)"
+  ],
+  "geographic_patterns": [
+    "United States: 3,240 titles (36.9%) - Specializes in Dramas",
+    "India: 1,056 titles (12.0%) - Specializes in Dramas",
+    "United Kingdom: 638 titles (7.3%) - Specializes in British TV Shows",
+    "Pakistan: 420 titles (4.8%) - Specializes in International TV Shows",
+    "Not Given: 287 titles (3.3%) - Specializes in Documentaries"
+  ],
+  "strategic_recommendations": [
+    "Consider expanding TV Shows content",
+    "Consider expanding Classic & Cult TV content",
+    "Consider expanding Movies content",
+    "Consider expanding Stand-Up Comedy & Talk Shows content",
+    "Consider expanding TV Thrillers content",
+    " Content Recommendation Engine: Implement discovered association rules for better content suggestions",
+    " Regional Content Strategy: Tailor content acquisition based on country-genre associations",
+    " Portfolio Balancing: Increase investment in underrepresented but associated genres",
+    " Creator Partnerships: Leverage director-cast collaboration patterns for new projects",
+    " Temporal Strategy: Align content releases with seasonal and temporal patterns",
+    " Cross-Promotion: Use genre associations for effective content cross-promotion",
+    " Data-Driven Acquisition: Apply association rules to evaluate new content potential"
+  ]
+}

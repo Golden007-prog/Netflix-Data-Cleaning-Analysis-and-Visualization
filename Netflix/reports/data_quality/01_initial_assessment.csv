@@ -1,0 +1,11 @@
+Column,Data_Type,Non_Null_Count,Null_Count,Null_Percentage,Unique_Values
+show_id,object,8790,0,0.0,8790
+type,object,8790,0,0.0,2
+title,object,8790,0,0.0,8787
+director,object,8790,0,0.0,4528
+country,object,8790,0,0.0,86
+date_added,object,8790,0,0.0,1713
+release_year,int64,8790,0,0.0,74
+rating,object,8790,0,0.0,14
+duration,object,8790,0,0.0,220
+listed_in,object,8790,0,0.0,513

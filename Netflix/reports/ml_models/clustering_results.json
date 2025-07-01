@@ -1,0 +1,55 @@
+{
+  "optimal_k": 2,
+  "silhouette_score": 0.45100776254770625,
+  "cluster_centers": [
+    [
+      0.17606505596721336,
+      0.09263637726857436,
+      -2.5436496881472475,
+      -0.04604777255533259,
+      0.7933900314640677,
+      2.5854345262214835,
+      0.0
+    ],
+    [
+      -0.01753820354775935,
+      -0.009227700701512416,
+      0.25337819443938187,
+      0.0045869136471083346,
+      -0.07903121825120714,
+      -0.2575404683859711,
+      0.0
+    ]
+  ],
+  "feature_names": [
+    "date_added_year",
+    "genre_count",
+    "release_year",
+    "director_count",
+    "duration_minutes",
+    "content_age_when_added",
+    "country_count"
+  ],
+  "cluster_insights": {
+    "0": {
+      "size": 796,
+      "avg_release_year": 1991.7311557788944,
+      "top_genre": "Action & Adventure",
+      "top_country": "United States",
+      "content_type_dist": {
+        "Movie": 737,
+        "TV Show": 59
+      }
+    },
+    "1": {
+      "size": 7991,
+      "avg_release_year": 2016.418095357277,
+      "top_genre": "Dramas",
+      "top_country": "United States",
+      "content_type_dist": {
+        "Movie": 5387,
+        "TV Show": 2604
+      }
+    }
+  }
+}

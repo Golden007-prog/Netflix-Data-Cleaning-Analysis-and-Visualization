@@ -1,0 +1,5 @@
+Cluster,type,primary_country,primary_genre,release_year,duration_minutes,content_age_when_added
+0,Movie,United States,Comedies,2014.8,105.6,4.2
+1,Movie,United States,Dramas,2016.1,95.9,2.6
+2,Movie,United States,Action & Adventure,1990.7,108.9,28.4
+3,TV Show,United States,International TV Shows,2017.2,17.1,1.7

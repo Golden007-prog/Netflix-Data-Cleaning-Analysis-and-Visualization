@@ -1,0 +1,22 @@
+{
+  "dataset_info": {
+    "total_records": 8787,
+    "analysis_date": "2025-07-01 09:48:30"
+  },
+  "transaction_analysis": {
+    "genre_transactions": 8787,
+    "country_transactions": 8787,
+    "director_transactions": 8787,
+    "cast_transactions": 0
+  },
+  "association_rules": {
+    "genre_rules": 52
+  },
+  "patterns_discovered": {},
+  "files_exported": [
+    "genre_association_rules.csv",
+    "country_genre_rules.csv",
+    "temporal_association_rules.csv",
+    "business_insights.json"
+  ]
+}

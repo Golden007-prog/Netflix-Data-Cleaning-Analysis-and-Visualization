@@ -1,0 +1,104 @@
+{
+  "models_ready": 5,
+  "model_files": [
+    "content_type_classifier.pkl",
+    "rating_classifier.pkl",
+    "duration_regressor.pkl",
+    "content_tfidf_vectorizer.pkl",
+    "content_similarity_matrix.pkl",
+    "content_clustering_model.pkl",
+    "content_clustering_scaler.pkl"
+  ],
+  "dataset_info": {
+    "size": 8787,
+    "features": 18
+  },
+  "performance_summary": {
+    "content_type_classification": {
+      "best_model": "Logistic Regression",
+      "best_accuracy": 0.9977246871444824,
+      "cv_accuracy": 0.9990041661815402,
+      "models_tested": 6,
+      "use_case": "Predict Movie vs TV Show",
+      "business_value": "Content categorization and filtering"
+    },
+    "rating_classification": {
+      "best_model": "Extra Trees",
+      "best_f1_macro": 0.3917671819836129,
+      "test_accuracy": 0.4979965655409273,
+      "models_tested": 5,
+      "use_case": "Predict Content Rating (G, PG, R, etc.)",
+      "business_value": "Content acquisition and parental guidance"
+    },
+    "duration_regression": {
+      "best_model": "Ridge Regression",
+      "best_r2": 0.8369533149514269,
+      "test_mae": 12.813224673732392,
+      "models_tested": 8,
+      "use_case": "Predict Optimal Content Duration",
+      "business_value": "Content planning and user engagement optimization"
+    },
+    "recommendation_system": {
+      "approach": "Content-Based Filtering",
+      "genre_diversity": 0.32799999999999996,
+      "country_diversity": 0.27999999999999997,
+      "use_case": "Personalized Content Recommendations",
+      "business_value": "Enhanced user experience and engagement"
+    },
+    "content_clustering": {
+      "optimal_clusters": 2,
+      "silhouette_score": 0.45100776254770625,
+      "use_case": "Content Portfolio Segmentation",
+      "business_value": "Market analysis and content strategy"
+    }
+  },
+  "deployment_checklist": [
+    [
+      "\u2713",
+      "Data preprocessing pipeline established"
+    ],
+    [
+      "\u2713",
+      "Multiple ML models trained and validated"
+    ],
+    [
+      "\u2713",
+      "Model performance metrics calculated"
+    ],
+    [
+      "\u2713",
+      "Business insights and recommendations generated"
+    ],
+    [
+      "\u2713",
+      "Model files saved in standardized format"
+    ],
+    [
+      "\u2713",
+      "Comprehensive documentation created"
+    ],
+    [
+      "\u26a0",
+      "Production environment setup (pending)"
+    ],
+    [
+      "\u26a0",
+      "A/B testing framework (pending)"
+    ],
+    [
+      "\u26a0",
+      "Model monitoring system (pending)"
+    ]
+  ],
+  "next_steps": [
+    "Set up production ML serving infrastructure",
+    "Implement model performance monitoring",
+    "Design A/B testing framework for model validation",
+    "Create automated model retraining pipeline",
+    "Integrate models with Netflix recommendation system",
+    "Deploy content type classifier for automated tagging",
+    "Launch content-based recommendation API",
+    "Establish model governance and version control"
+  ],
+  "created_date": "2025-07-01 10:30:22"
+}
